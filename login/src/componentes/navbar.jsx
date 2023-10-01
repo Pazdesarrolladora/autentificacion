@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div>
       <nav
-        className={`navbar navbar-expand-lg fixed-top bg-primary ${
+        className={`navbar navbar-expand-lg fixed-top bg-ligth ${
           isMenuOpen ? 'active' : ''
         }`}
       >

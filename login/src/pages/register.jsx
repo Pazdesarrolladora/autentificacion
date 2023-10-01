@@ -37,7 +37,7 @@ const Register = () => {
     <div className="container">
       <Navbar/>
       <div className="main-content">
-      <h1 className="text-center">REGISTRATE</h1>
+      <h1 className="text-center">Llena el formulario y estaras registrado</h1>
       <form onSubmit={handleRegister}>
         <div className="mb-3">
           <label htmlFor="exampleInputEmail1" className="form-label">
@@ -85,7 +85,7 @@ const Register = () => {
         </div>
         <div className="d-flex justify-content-center">
         <button type="submit" className="btn btn-warning">
-          Register
+          Estoy listo!
         </button>
         </div>
       </form>

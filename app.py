@@ -16,7 +16,7 @@ db_url = os.getenv("DATABASE_URL", "postgresql://postgres:postgres@localhost:543
 app.config['SQLALCHEMY_DATABASE_URI'] = db_url
 
 # Configuración para JWT
-app.config['JWT_SECRET_KEY'] = 'juanito'  # Cambia esto a una clave secreta más segura
+app.config['JWT_SECRET_KEY'] = 'pedro'  # Cambia esto a una clave secreta más segura
 jwt = JWTManager(app)
 
 # Inicialización de la base de datos
